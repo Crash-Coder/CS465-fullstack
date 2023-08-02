@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.edit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; /* Push the button to the bottom of the card */
+  }

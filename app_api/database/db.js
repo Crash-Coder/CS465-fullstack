@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const host = process.env.DB_HOST || '127.0.0.1'
-const dbURI =  `mongodb://127.0.0.1:27017/travlr`;
+const dbURI =  `mongodb://${host}:27017/travlr`;
 const readLine = require('readline');
 
 //avoid 'current Server Discovert and Monitoring engine is depreciated'
@@ -13,7 +13,7 @@ const connect = () => {
         mongoose.connect(dbURI, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            family: 4,
+            //family: 4,
         }),
       1000
     );

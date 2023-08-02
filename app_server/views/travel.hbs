@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>{{title}}</title>
+	<title>{{ title }}</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -16,8 +16,6 @@
 						<div class="body">
 							<h1>Travel</h1>
 							<ul id="sites">
-								{{!-- Debug: Output trips array --}}
-								{{log trips}}
 								{{#each trips}}
 								<li>
 									<a href="/api/trips/{{this.code}}"><img src="images/{{this.image}}" alt="Img"></a>
