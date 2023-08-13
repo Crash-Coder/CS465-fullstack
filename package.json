@@ -18,13 +18,25 @@
 
     "cookie-parser": "^1.4.6",
 
+    "crypto": "^1.0.1",
+
+    "dotenv": "^16.3.1",
+
     "express": "^4.18.2",
 
+    "express-jwt": "^6.1.0",
+
     "http-errors": "^2.0.0",
+
+    "jsonwebtoken": "^9.0.1",
 
     "mongoose": "^6.11.4",
 
     "morgan": "^1.10.0",
+
+    "passport": "^0.6.0",
+
+    "passport-local": "^1.0.0",
 
     "readline": "^1.3.0",
 
@@ -37,6 +49,8 @@
   "devDependencies": {
 
     "hbs": "^4.2.0",
+
+    "prettier": "3.0.1",
 
     "seedgoose": "^2.0.2"
 

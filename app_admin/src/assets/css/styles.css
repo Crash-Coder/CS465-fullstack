@@ -2,7 +2,42 @@
 
 
 .edit-button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: auto; /* Push the button to the bottom of the card */
-  }
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.btn-custom {
+  background-color: #1b588a;
+  color: #ffffff;
+  border-color: #000000;
+}
+
+.btn-custom:hover {
+  background-color: #7594b4;
+  color: #f8f8f8;
+  border-color: #007bff;
+}
+
+body {
+  background-image: url('../images/bg-pattern.jpg');
+  background-repeat: repeat-x;
+  background-size: 100% auto;
+}
+
+.navbar {
+  background-image: url('../images/bg-navigation.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  font-size: 25px;
+}
+
+.custom-card {
+  background-image: url('../images/bg-body.jpg');
+  border: 1px solid #ccc;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border-radius: 2px;
+  border-color: rgba(0, 255, 255, 0.445);
+  box-shadow: 0px 2px 4px rgba(111, 128, 5, 0.452);
+}
