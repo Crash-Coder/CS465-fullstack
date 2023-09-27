@@ -14,10 +14,9 @@ The backend used a NoSQL MongoDB due to the data requirements for the applicatio
 
 JSON and JavaScript serve different purposes in development:
 
-- JSON is different from Javascript in a few aspects, the first one being Javascript is a language with the main purpose of creating interactive and dynamic elements when developing web pages. Javascript can be implemented to run the front end of the app and the back end of the app using Node
-- JSON is different from Javascript in a few aspects, the first one being Javascript is a language with the main purpose of creating interactive and dynamic elements when developing web pages. Javascript can be implemented to run the front end of the app and the back end of the app using Node
-
-JSON is different from Javascript in a few aspects, the first one being Javascript is a language with the main purpose of creating interactive and dynamic elements when developing web pages. Javascript can be implemented to run the front end of the app and the back end of the app using NodeJSON ties together the front end and back end of the application by setting a standard for the data when it is to be exchanged between the database and the UI. In the web app, there are formats placed in specific files that would require the application to follow these schemas when bringing the data in from the database to the UI so that when the data is displayed it is in proper format. This happens in the HTML file related to the page the user is looking to load.
+- JSON is different from Javascript in a few aspects, the first one being Javascript is a language with the main purpose of creating interactive and dynamic elements when developing web pages.
+- Javascript can be implemented to run the front end of the app and the back end of the app using Node
+- JSON ties together the front end and back end of the application by setting a standard for the data when it is to be exchanged between the database and the UI. In the web app, there are formats placed in specific files that would require the application to follow these schemas when bringing the data in from the database to the UI so that when the data is displayed it is in proper format. This happens in the HTML file related to the page the user is looking to load.
 Instances, 
 
 ### Refactoring for Improved Functionality
